@@ -130,7 +130,7 @@ h1,h2,h3 {
 .navegacion-principal a:hover {
     background-color: var(--primario);
     color: var(--oscuro);
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
 /* Hero */
