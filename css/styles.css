@@ -552,7 +552,7 @@ h3 {
 
 .slider {
     display: flex;
-    width: 1300%;
+    width: 1500%;
     /*proporcional de acuerdo a la cantidad de imagenes que se coloca, ejemplo: 4 imagenes 400%, 5 imagenes 500%*/
     margin-left: -100%;
 }
