@@ -231,10 +231,29 @@ h3 {
     }
 }
 
+@media (min-width: 768px) {
+    .serviciosRedes {
+        display: flex;
+        justify-content: center;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        margin-bottom: 20px;
+    }
+}
+
+.servicioRedes {
+    display: flex;
+    justify-content: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 20px;
+}
+
 .servicio {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .servicio h3 {
