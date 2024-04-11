@@ -5,15 +5,15 @@ class Escena extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image('fondo', '../img/Pantallas.jpg');
-    this.load.image('ima1', '../img/Imagen1.png');
-    this.load.image('ima2', '../img/Imagen2.png');
-    this.load.image('ima3', '../img/Imagen3.png');
-    this.load.image('ima4', '../img/Imagen4.png');
-    this.load.image('ima5', '../img/Imagen5.png');
-    this.load.image('ima6', '../img/Imagen6.png');
-    this.load.image('ima7', '../img/Imagen7.png');
-    this.load.image('ima8', '../img/Imagen0.png');
+    this.load.image('fondo', '../imgJuego/Pantallas.jpg');
+    this.load.image('ima1', '../imgJuego/Imagen1.png');
+    this.load.image('ima2', '../imgJuego/Imagen2.png');
+    this.load.image('ima3', '../imgJuego/Imagen3.png');
+    this.load.image('ima4', '../imgJuego/Imagen4.png');
+    this.load.image('ima5', '../imgJuego/Imagen5.png');
+    this.load.image('ima6', '../imgJuego/Imagen6.png');
+    this.load.image('ima7', '../imgJuego/Imagen7.png');
+    this.load.image('ima8', '../imgJuego/Imagen0.png');
   }
 
   create() {
@@ -134,9 +134,9 @@ class EscenaGameOver extends Phaser.Scene {
     super('GameOver');
   }
   preload() {
-    this.load.image('fondo1', '../img/GameOver1.jpg');
-    this.load.image('fondo2', '../img/GameOver2.jpg');
-    this.load.image('fondo3', '../img/GameOver3.jpg');
+    this.load.image('fondo1', '../imgJuego/GameOver1.jpg');
+    this.load.image('fondo2', '../imgJuego/GameOver2.jpg');
+    this.load.image('fondo3', '../imgJuego/GameOver3.jpg');
   }
   create() {
     this.CaraOver = this.add.sprite(512, 512, 'fondo1');
