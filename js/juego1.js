@@ -35,7 +35,7 @@ class Escena extends Phaser.Scene {
       align: 'right'
     });
 
-    this.topeDeTiempo = 10.0;
+    this.topeDeTiempo = 10;
     this.tiempo = this.topeDeTiempo;
     this.tiempoTXT = this.add.text(855, 50, this.tiempo, {
       fontFamily: 'font1',
@@ -48,8 +48,8 @@ class Escena extends Phaser.Scene {
   }
   LanzarMisil() {
     const aleatorio = `ima${Math.floor(Math.random() * 2)}`;
-    const Posaleatorio = Math.floor(Math.random() * config.width - 100) + 50;
-    const misil = this.physics.add.image(Posaleatorio, 100, aleatorio).setScale(0.5, 0.5);
+    const Posaleatorio = Math.floor(Math.random() * config.width - 150) + 50;
+    const misil = this.physics.add.image(Posaleatorio, 200, aleatorio).setScale(0.5, 0.5);
     misil.setVelocity(0, 100);
     misil.setInteractive();
     misil.on("pointerdown", () => this.misilPulsado(misil));
@@ -147,7 +147,7 @@ const config = {
     arcade: {
       debug: true,
       gravity: {
-        y: 300,
+        y: 200,
       },
     },
   },

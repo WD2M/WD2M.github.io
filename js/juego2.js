@@ -50,7 +50,7 @@ class Escena extends Phaser.Scene {
       align: 'right'
     });
 
-    this.topeDeTiempo = 10.0;
+    this.topeDeTiempo = 10;
     this.tiempo = this.topeDeTiempo;
     this.tiempoTXT = this.add.text(855, 200, this.tiempo, {
       fontFamily: 'font1',
