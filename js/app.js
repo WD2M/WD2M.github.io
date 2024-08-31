@@ -15,8 +15,9 @@ h2.forEach(( cadaH2, i)=>{
             bloque[i].classList.remove('activo')
         })
         bloque[i].classList.add('activo')
-    })
-}
+    });
+});
+
 
 slider.insertAdjacentElement('afterbegin', sliderSectionLast);
 
